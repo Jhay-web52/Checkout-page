@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #F5F8FA;
+    max-width: 1400px;
+    margin: 0 auto;
+    border: #F5F8FA 1px solid;
+   
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    margin-top: 20px ;
+    border-bottom: #c8daf5 1px solid;
+    font-size:  14px;
+    font-weight: 700;
+}
+
+img {
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: #1D2C3C;
+    margin-left: 30px;
+}
+
+.switch {
+   text-decoration: underline;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-weight: 400;
+   margin-left: 0px;
+}
+ h2 {
+    font-weight: 400;
+    font-size: 30px;
+    color: #1D2C3C;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+ }
+
+ hr {
+   border-bottom:#fcf8f8 1px solid;
+   width: 580px;
+ }
+
+
+ h3 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+ }
+
+ .pricing {
+    width: 121px;
+    height: 72px;
+    font-weight: 300;
+    font-size: 45px;
+ }
+
+ sup {
+   font-size: 18px;
+   font-weight: 300;
+ }
+
+ sub {
+      font-size: 16px;
+      font-weight: 300;
+ }
+
+.italic {
+   font-weight: 400;
+   font-size: 16px;
+   font-style: italic;
+   margin-bottom: 20px;
+}
+
+.text {
+   font-size: 16px;
+   font-weight: 400;
+   margin-bottom: 10px;
+   margin-left: 10px;
+}
+
+.client {
+   margin-top: 20px;
+}
+
+
+
+.flexing {
+   display: flex;
+}
+
+
+.box {
+   margin-top: 60px;
+   margin-bottom: 20px;
+   border-top: #0b98f7 2px solid;
+   padding-top: 30px;
+}
+
+.word {
+   font-weight: 400;
+   font-style: 18px;
+   font-style: italic;
+   letter-spacing: -0.01px;
+}
+.name {
+   font-weight: 700;
+   font-size: 16px;
+   margin-left: 20px;
+   margin-top: 10px;
+
+}
+
+ .figures {
+    width: 30px;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+ }
+ 
+ 
+ .figures1 {
+    width: 20px;
+      margin-left: 100px;
+ }
+
+ .figures2 {
+   width: 20px;
+   margin-bottom: 10px;
+ }
+   
+
+ .bitmap {
+    width: 40px;
+ }
+span {
+      color: #0092e7;
+}
+ .stripe {
+    width: 92px;
+    margin-left: 250px;
+    margin-top: 20px;
+ }
+
+ .hero {
+    display: flex;
+    width: 892px;
+    background-color: #FFFFFF;
+    margin-top: 120px;
+    margin-left: 250px;
+    border: #FFFFFF 1px solid;
+    height: 800px;
+    border-radius: 20px;
+   
+ }
+
+ .rightwrap {
+  width: 580px;
+  background-color: #FFFFFF;
+  border: #FFFFFF 1px solid;
+  border-radius: 10px;
+  
+ }
+
+ .leftwrap {
+    background-color: #1179BF;
+    width: 312px;
+    padding: 40px;
+    color: #FFFFFF;
+    border: #0092e7 1px solid;
+    border-radius: 10px;
+    
+ }
+
+ .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+ }
+
+ .heading {
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 10px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+   
+ }
+ .lastheading {
+    font-size: 14px;
+    font-weight: 700;
+      margin-left: 10px
+    
+ }
+
+ .label {
+   font-size: 14px;
+   font-weight: 400;
+ }
+
+ .form {
+   margin-left: 30px;
+   margin-bottom: 30px;
+   
+
+ }
+
+ #firstname {
+      width: 227px;
+      height: 36px;
+      background-color: #EDEFF2;
+      border: #EDEFF2 1px solid;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 5px;
+ }
+
+ #lastname {
+      width: 227px;
+      height: 36px;
+      background-color: #EDEFF2;
+      border: #EDEFF2 1px solid;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 5px;
+ }
+
+ #email {
+      width: 227px;
+      height: 36px;
+      background-color: #EDEFF2;
+      border: #EDEFF2 1px solid;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 5px;
+ }
+
+ #Cardnumber {
+      width: 483px;
+      height: 36px;
+      background-color: #EDEFF2;
+      border: #EDEFF2 1px solid;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 5px;
+ }
+
+ button {
+   width: 483px;
+   height: 52px;
+   color: #FFFFFF;
+   background-color: #038E7D;
+   margin-top: 30px;
+   border-radius: 5px;
+   font-size: 18px;
+   font-weight: 700;
+   border: #038E7D 1px solid;
+ }
+
+ footer {
+   margin-left: 500px;
+   width: 867px;
+   margin-top: 30px;
+   font-weight: 400;
+   font-size: 14px;
+   margin-bottom: 50px;
+ }
+
+/* ---------- Tablet View (481px - 1024px) ---------- */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+   body {
+     padding: 0 10px;
+   }
+ 
+   nav {
+     flex-direction: column;
+     align-items: center;
+     padding: 20px;
+     gap: 10px;
+     text-align: center;
+   }
+ 
+   nav img {
+     width: 150px;
+     margin-bottom: 10px;
+   }
+ 
+   nav a {
+     margin: 10px 5px;
+     font-size: 13px;
+   }
+ 
+   .hero {
+     flex-direction: column;
+     width: 100%;
+     margin: 50px auto;
+     height: auto;
+   }
+ 
+   .leftwrap,
+   .rightwrap {
+     width: 90%;
+     margin: 0 auto;
+     border-radius: 10px;
+   }
+ 
+   #Cardnumber,
+   button {
+     width: 100%;
+   }
+ 
+   footer {
+     width: 100%;
+     margin-left: 0;
+     text-align: center;
+     padding: 0 10px;
+   }
+ }
+ 
+ /* ---------- Mobile View (up to 480px) ---------- */
+ @media screen and (max-width: 480px) {
+   body {
+     padding: 0 10px;
+   }
+ 
+   nav {
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+     padding: 20px;
+   }
+ 
+   nav img {
+     width: 120px;
+     margin-bottom: 10px;
+   }
+ 
+   nav a {
+     display: block;
+     margin: 10px 0;
+     font-size: 14px;
+   }
+ 
+   .hero {
+     flex-direction: column;
+     width: 100%;
+     margin: 20px 0;
+     height: auto;
+     border-radius: 10px;
+   }
+ 
+   .leftwrap,
+   .rightwrap {
+     width: 100%;
+     padding: 20px;
+     margin: 0 auto;
+     border-radius: 10px;
+   }
+ 
+   .form {
+     margin-left: 0;
+     padding: 0;
+   }
+ 
+   .grid {
+     display: block;
+   }
+ 
+   input[type="text"],
+   input[type="email"],
+   #Cardnumber,
+   button {
+     width: 100%;
+   }
+ 
+   .figures,
+   .figures1,
+   .figures2,
+   .stripe {
+     display: none; /* optional: hide decorative images */
+   }
+ 
+   h2 {
+     font-size: 24px;
+     margin-left: 10px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+   }
+ 
+   .pricing {
+     font-size: 36px;
+   }
+ 
+   footer {
+     width: 100%;
+     margin-left: 0;
+     text-align: center;
+     padding: 0 10px;
+     font-size: 13px;
+   }
+ }
+ 
